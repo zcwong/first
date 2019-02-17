@@ -1,0 +1,107 @@
+
+a{
+    text-decoration: none;
+
+} 
+
+header .login{
+    height: 50px;
+    float:right;
+     font-size: 28px;
+     border-bottom: 1px solid #eee;
+     transition:0.4s;
+ 
+     letter-spacing: 1px;
+     color:#ea2828;
+ }
+
+ header .login:hover{
+  
+    border-bottom: 1px solid black;
+     transition:0.4s;
+ }
+
+
+header .login form{
+    float:right;
+    padding-top: 8px;
+ 
+}
+
+
+/*log in*/
+header .login form input{
+    float:left;
+    width: 140px;
+    height:30px;
+    padding:0px 10px;
+    margin-left:0px;
+    border:1px solid black;
+    background-color: white;
+    font-size: 14px;
+    color:#333;
+    line-height: 30px;
+     font-weight: bold;
+
+}
+
+
+/*logged in*/
+header .login form button{
+    float:left;
+    margin:4px 50px;
+    width: 80px;
+    height:30px;
+    margin-right:50px;
+    border:0px solid #333;
+    background-color: white;
+    font-size: 19px;
+    color:black;
+    cursor: pointer;
+    font-weight: bold;
+     transition:0.2s ;
+}
+
+
+header .login form button:hover{
+   
+    background-color:white;
+    color:#ea2828;
+    transition:0.2s ;
+ }
+
+
+ header .login a{
+    display:block;
+    height: 0px;
+    width:50px ;
+    margin:4px 10px;
+    float:left;
+    background-color: white;
+    font-size: 17px;
+    color: #333;
+    line-height: 40px;
+    cursor: pointer;
+    text-align: center;
+     font-weight: bold;
+     border-bottom:0px solid black;
+     transition:0.1s;
+        
+
+}
+
+header .login a:hover{
+     border-bottom:3px solid #ea2828;
+     color:#ea2828;
+        transition:0.1s;
+}
+
+
+
+
+
+
+
+
+
+
